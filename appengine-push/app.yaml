@@ -5,8 +5,6 @@ threadsafe: true
 handlers:
 - url: /js
   static_dir: js
-- url: /receive_message.*
-  script: main.APPLICATION
 - url: /.*
   script: main.APPLICATION
 

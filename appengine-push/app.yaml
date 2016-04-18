@@ -7,6 +7,9 @@ handlers:
   static_dir: js
 - url: /.*
   script: main.APPLICATION
+- url: /_ah/push-handlers/.*
+  script: main.APPLICATION
+  login: admin
 
 libraries:
 - name: jinja2
